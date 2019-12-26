@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "abshirj05@gmail.com",
+      "password": "Abshir26",
+      "fullName": "Abshir M Jama",
+      "dateStarted": "03/15/1991",
+      "initials": "AJ",
+      "address": "Chicago, IL",
+      "phone": "2247636417",
+      "position": "emp",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "email": "brotherabshir@gmail.com",
+      "password": "Abshir26",
+      "fullName": "Abshir M Jama",
+      "dateStarted": "03/15/1991",
+      "initials": "AJ",
+      "address": "Chicago, IL",
+      "phone": "2247636417",
+      "position": "admin"
+    },
+    {
+      "id": 3,
+      "email": "abshir.uideveloper@gmail.com",
+      "password": "Abshir26",
+      "fullName": "Abshir M Jama",
+      "dateStarted": "03/15/1991",
+      "initials": "AM",
+      "address": "Chicago, IL",
+      "phone": "2247636417",
+      "position": "emp",
+      "status": "active"
+    }
+  ]
+}

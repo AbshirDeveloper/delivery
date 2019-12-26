@@ -1,0 +1,89 @@
+{
+  "management": {
+    "entitledIds": [2],
+    "data": {
+      "columnDefs": [
+        { "headerName": "Make", "field": "make" },
+        { "headerName": "Model", "field": "model" },
+        { "headerName": "Price", "field": "price" }
+      ],
+      "rowData": [
+        { "make": "Toyota", "model": "Celica", "price": 35000 },
+        { "make": "Ford", "model": "Mondeo", "price": 32000 },
+        { "make": "Porsche", "model": "Boxter", "price": 72000 }
+      ]
+    },
+    "layout": {
+      "action": [
+        {
+          "name": "add",
+          "entitledIds": [2],
+          "fields": [
+            {
+              "type": "text",
+              "label": "First Name",
+              "variant": "filled",
+              "error": false
+            },
+            {
+              "type": "text",
+              "label": "Last Name",
+              "variant": "filled",
+              "error": false
+            },
+            {
+              "type": "text",
+              "label": "Email",
+              "variant": "filled",
+              "error": false
+            }
+          ],
+          "buttons": [
+            {
+              "type": "button",
+              "label": "Submit",
+              "color": "primary",
+              "variant": "contained"
+            }
+          ]
+        },
+        {
+          "name": "edit",
+          "entitledIds": [2],
+          "fields": [
+            {
+              "type": "text",
+              "label": "First Name",
+              "variant": "filled",
+              "error": false
+            },
+            {
+              "type": "text",
+              "label": "Last Name",
+              "variant": "filled",
+              "error": false
+            },
+            {
+              "type": "text",
+              "label": "Email",
+              "variant": "filled",
+              "error": false
+            }
+          ],
+          "buttons": [
+            {
+              "type": "button",
+              "label": "Submit",
+              "color": "primary",
+              "variant": "contained"
+            }
+          ]
+        },
+        {
+          "name": "send",
+          "entitledIds": [2]
+        }
+      ]
+    }
+  }
+}
